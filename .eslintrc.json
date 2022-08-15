@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es2021": true
+        "es2021": true,
+        "node": true
     },
     "extends": [
         "eslint:recommended",
@@ -24,6 +25,7 @@
     ],
     "rules": {
         "react/react-in-jsx-scope": "off",
+        "react/prop-types": "off",
         "indent": ["warn", 2],
         "quotes": ["warn", "single"]
     }
