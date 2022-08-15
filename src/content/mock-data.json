@@ -1,0 +1,27 @@
+[
+  {
+    "img": "european-union.png",
+    "name": "Euro",
+    "link": "eur"
+  },
+  {
+    "img": "russia.png",
+    "name": "Russian Ruble",
+    "link": "rub"
+  },
+  {
+    "img": "united-states-of-america.png",
+    "name": "US Dollar",
+    "link": "usd"
+  },
+  {
+    "img": "united-arab-emirates.png",
+    "name": "UAE Dirham",
+    "link": "aed"
+  },
+  {
+    "img": "moldova.png",
+    "name": "Moldovan Leu",
+    "link": "mdl"
+  }
+]
