@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <Container >
-      <Flex align={'flex-start'}>
+      <Flex align={'flex-start'} direction768px={'column'}>
         <Aside>
           <Flex justify={'space-between'}>
             <CurrencyList clickAction={addTo} currency={currencyTo}/>
