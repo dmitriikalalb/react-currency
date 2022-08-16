@@ -5,6 +5,7 @@ import {Navigate, useParams} from 'react-router-dom';
 import MockData from '../content/mock-data.json'
 import {useDispatch} from 'react-redux';
 import {addCurrencyFrom, addCurrencyTo} from '../store/actions/currencyAction';
+import CurrencyBlock from '../components/CurrencyBlock';
 
 const DetailsPage = () => {
   const params = useParams()
@@ -26,7 +27,9 @@ const DetailsPage = () => {
   return (
     <>
       <TextBlock title={`Обмен ${currencyTo.name} на ${currencyFrom.name}`}/>
+      <CurrencyBlock currencyTo={currencyTo} currencyFrom={currencyFrom}/>
       <Table/>
+      <TextBlock/>
     </>
   )
 }
