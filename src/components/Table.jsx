@@ -27,11 +27,17 @@ const StyledTh = styled.th`
   font-size: .85em;
   letter-spacing: .1em;
   text-transform: uppercase;
+  @media screen and (max-width: 576px) {
+    padding: 3px;
+  }
 `
 
 const StyledTd = styled.td`
   padding: 10px;
   text-align: center;
+  @media screen and (max-width: 576px) {
+    padding: 3px;
+  }
 `
 
 const rows = []
